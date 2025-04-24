@@ -8,7 +8,7 @@ export default defineConfig({
     open: true,
     proxy: {
       '/players': {
-        target: 'https://fantasyapp-production-253f.up.railway.app',
+        target: 'http://fantasyapp-production-253f.up.railway.app',
         changeOrigin: true,
         secure: false
       }

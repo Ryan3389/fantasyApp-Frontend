@@ -4,7 +4,7 @@ function HrPage() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`https://fantasyapp-production-253f.up.railway.app/players/totalHomeRuns?homeRuns=${encodeURIComponent(homeRunCount)}`)
+                const response = await fetch(`http://fantasyapp-production-253f.up.railway.app/players/totalHomeRuns?homeRuns=${encodeURIComponent(homeRunCount)}`)
                 // const response = await fetch(`http://fantasyapp-production-253f.up.railway.app/players/totalHomeRuns?homeRuns=${encodeURIComponent(homeRunCount)}`)
 
                 if (!response.ok) {
