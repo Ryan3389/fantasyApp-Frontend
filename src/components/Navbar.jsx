@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom"
-import mlbLogo from '../../public/mlbLogo.png'
+// import mlbLogo from '../../public/mlbLogo.png'
 function Navbar() {
     return (
         <header>
             <nav>
-                <img src={mlbLogo} alt="Major League Baseball Logo" className="nav-logo" />
+                <img src="/mlbLogo.png" alt="Major League Baseball Logo" className="nav-logo" />
                 <div className="nav-links">
                     <Link to={'/'}>Home</Link>
                     <Link to={'/homeruns'}>Home Runs</Link>
